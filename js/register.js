@@ -38,7 +38,7 @@ $(function(){
             },
             success: function(res){
                 // console.log(res);
-                alert('注册成功');
+                mui.toast('注册成功');
 
                 setTimeout(function(){
                     location.href = "login.html";
